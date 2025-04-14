@@ -12,8 +12,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(false)
 
   return (
-    <Router>
-      <div className={`min-h-screen ${darkMode ? 'dark bg-gray-900 text-white' : 'bg-blue-100 text-gray-800'}`}>
+    <div className={`min-h-screen ${darkMode ? 'dark bg-gray-900 text-white' : 'bg-blue-100 text-gray-800'}`}>
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         {/* <Header /> */}
         <main className="container mx-auto px-4 py-8">
@@ -25,7 +24,6 @@ function App() {
         </main>
         <Footer />
       </div>
-    </Router>
   )
 }
 
