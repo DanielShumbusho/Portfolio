@@ -5,14 +5,14 @@ const Projects = () => {
     {
         title: "Portfolio Website",
         description: "A responsive portfolio built with React and Tailwind CSS",
-        image: "/assets/images/React_Logo.png",
+        image: "/Portfolio/assets/images/React_Logo.png",
         technologies: ["React", "Vite", "Tailwind"],
         githubUrl: "https://github.com/DanielShumbusho/Portfolio.git",
       },
     {
         title: "Expense Tracker API",
         description: "An expense tracking api for daily errands",
-        image: "/assets/images/spring-boot-logo.png",
+        image: "/Portfolio/assets/images/spring-boot-logo.png",
         technologies: ["Java", "PostgresSQL"],
         githubUrl: "https://github.com/DanielShumbusho/ExpenseTrackerApi",
     }
