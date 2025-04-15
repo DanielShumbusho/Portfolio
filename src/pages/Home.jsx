@@ -9,14 +9,14 @@ const Home = () => {
     {
       title: "Portfolio Website",
       description: "A responsive portfolio built with React and Tailwind CSS",
-      image: "/assets/images/React_Logo.png",
+      image: "/Portfolio/assets/images/React_Logo.png",
       technologies: ["React", "Vite", "Tailwind"],
       githubUrl: "https://github.com/DanielShumbusho/Portfolio.git",
     },
     {
       title: "Expense Tracker API",
       description: "An expense tracking api for daily errands",
-      image: "/assets/images/spring-boot-logo.png",
+      image: "/Portfolio/assets/images/spring-boot-logo.png",
       technologies: ["Java", "Spring-Boot", "PostgresSQL"],
       githubUrl: "https://github.com/DanielShumbusho/ExpenseTrackerApi",
     }
@@ -43,7 +43,7 @@ const Home = () => {
       <div className="flex flex-wrap gap-4 justify-center items-center">
           <img width="250" 
           data-iframe-height="270" 
-          src="/assets/images/Portfolio_Picture(Final).jpg" 
+          src="/Portfolio/assets/images/Portfolio_Picture(Final).jpg" 
           className="rounded-full w-[250px] h-[250px] object-cover border-4 border-blue-500 shadow-lg"></img>
       </div><br></br>
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
